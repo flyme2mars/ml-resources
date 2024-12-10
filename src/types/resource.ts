@@ -394,6 +394,12 @@ export const resourceData: Resource = {
           url: 'https://eugeneyan.com/writing/'
         },
         {
+          id: 'sebastian-blog',
+          name: 'Sebastian Raschka',
+          type: 'article',
+          url: 'https://sebastianraschka.com/blog/'
+        },
+        {
           id: 'himanshu-blog',
           name: 'himanshu',
           type: 'article',

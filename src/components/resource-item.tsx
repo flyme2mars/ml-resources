@@ -41,13 +41,15 @@ export function ResourceItem({ resource, level = 0 }: ResourceItemProps) {
       >
         <ChevronRight
           className={cn(
-            "w-4 h-4 transition-transform text-gray-400",
+            "w-4 h-4 shrink-0 transition-transform text-gray-400",
             isExpanded && "rotate-90",
             resource.type !== 'folder' && "invisible"
           )}
         />
-        <ResourceIcon type={resource.type} />
-        <span className="truncate text-gray-200">{resource.name}</span>
+        <div className="flex-shrink-0">
+          <ResourceIcon type={resource.type} />
+        </div>
+        <span className="truncate text-gray-200 flex-1 min-w-0">{resource.name}</span>
       </div>
       {isExpanded && resource.children && (
         <div className="mt-1">
