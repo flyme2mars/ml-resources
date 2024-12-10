@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { ResourceItem } from "@/components/resource-item"
 import { resourceData } from "@/types/resource"
