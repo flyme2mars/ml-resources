@@ -442,6 +442,12 @@ export const resourceData: Resource = {
           url: 'https://blog.gregbrockman.com/'
         },
         {
+          id: 'nielsen-blog',
+          name: 'Michael Nielsen',
+          type: 'article',
+          url: 'https://michaelnotebook.com/index.html'
+        },
+        {
           id: 'saurabh-blog',
           name: 'saurabh',
           type: 'article',
@@ -539,6 +545,94 @@ export const resourceData: Resource = {
       type: 'folder',
       children: [
 
+      ]
+    },
+    {
+      id: 'gpu',
+      name: 'GPU',
+      type: 'folder',
+      children: [
+        {
+          id: 'parallel-programming',
+          name: 'Parallel Programming',
+          type: 'folder',
+          children: [
+            {
+              id: 'is-parallel-programming-hard',
+              name: 'Is Parallel Programming Hard, And, If So, What Can You Do About It',
+              type: 'document',
+              url: 'https://mirrors.edge.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.2023.06.11a.pdf'
+            },
+            {
+              id: 'intro-to-parallel-programming',
+              name: 'Intro to Parallel Programming',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PLAwxTw4SYaPnFKojVQrmyOGFCqHTxfdv2'
+            },
+            {
+              id: 'programming-parallel-computers',
+              name: 'Programming Parallel Computers',
+              type: 'article',
+              url: 'https://ppc.cs.aalto.fi/'
+            },
+            {
+              id: 'python-parallel-computing',
+              name: 'Python Parallel Computing',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PL30NBs02RsiUbmXVPDo56APsU0xa6gfL2'
+            },
+            {
+              id: 'nhr-fau-parallel-programming',
+              name: 'NHR@FAU - Parallel Programming',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PLxVedhmuwLq2Ie88ODuZufCGorawPO1AP'
+            },
+          ]
+        },
+
+        {
+          id: 'cuda',
+          name: 'CUDA',
+          type: 'folder',
+          children: [
+            {
+              id: 'cuda-siboehm',
+              name: 'How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog',
+              type: 'article',
+              url: 'https://siboehm.com/articles/22/CUDA-MMM'
+            },
+            {
+              id: 'cuda-mode',
+              name: 'GPU(CUDA) MODE',
+              type: 'video',
+              url: 'https://www.youtube.com/@GPUMODE'
+            },
+            {
+              id: 'pmpp',
+              name: 'Programming Massively Parallel Processors',
+              type: 'document',
+              url: 'https://github.com/h3ct0rjs/HighPerformanceComputing/blob/master/BookRef/Programming%20Massively%20Parallel%20Processors.pdf'
+            },
+            {
+              id: 'cuda-tutorial',
+              name: 'CUDA Toolkit Documentation',
+              type: 'article',
+              url: 'https://docs.nvidia.com/cuda/'
+            },
+            {
+              id: 'cuda-cpp-guide',
+              name: 'CUDA C++ Programming Guide',
+              type: 'document',
+              url: 'https://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf'
+            },
+          ]
+        },
+        {
+          id: 'horace-he',
+          name: 'Horace He - Making Deep Learning Go Brrrr',
+          type: 'article',
+          url: 'https://horace.io/brrr_intro.html'
+        }
       ]
     }
   ]
