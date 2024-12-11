@@ -424,6 +424,12 @@ export const resourceData: Resource = {
           url: 'https://blog.matdmiller.com/'
         },
         {
+          id: 'atcold-blog',
+          name: 'Alfredo Canziani',
+          type: 'article',
+          url: 'https://atcold.github.io/blog.html'
+        },
+        {
           id: 'maharshi-blog',
           name: 'maharshi',
           type: 'article',
@@ -630,6 +636,12 @@ export const resourceData: Resource = {
               url: 'https://course.fast.ai/'
             },
             {
+              id: 'fsdl',
+              name: 'Full Stack Deep Learning - 2022',
+              type: 'article',
+              url: 'https://fullstackdeeplearning.com/course/2022/'
+            },
+            {
               id: 'david-mackay-info-theory-pattern-recognition-and-neural-networks',
               name: 'David MacKay - Information Theory, Pattern Recognition, and Neural Networks',
               type: 'video',
@@ -662,6 +674,171 @@ export const resourceData: Resource = {
           ]
         },
         {
+          id: 'cnn',
+          name: 'CNN',
+          type: 'folder',
+          children: [
+            {
+              id: 'cnn-mathematical-intuition',
+              name: 'CNN from Scratch with pure  Mathematical Intuition',
+              type: 'article',
+              url: 'https://lunar-joke-35b.notion.site/CNN-from-Scratch-with-pure-Mathematical-Intuition-a201ef0ca1314058a1707a3ae260981e'
+            },
+            {
+              id: 'cnn-guide',
+              name: 'Convolutional Neural Network (CNN): A Complete Guide',
+              type: 'article',
+              url: 'https://learnopencv.com/understanding-convolutional-neural-networks-cnn/'
+            },
+            {
+              id: 'cnn-explainer',
+              name: 'CNN Explainer',
+              type: 'article',
+              url: 'https://poloclub.github.io/cnn-explainer/'
+            },
+            {
+              id: 'convnetjs',
+              name: 'ConvNetJS - Deep Learning in your browser',
+              type: 'article',
+              url: 'https://cs.stanford.edu/people/karpathy/convnetjs/index.html'
+            },
+            {
+              id: 'cnn-visualization',
+              name: 'Convolutional Neural Networks Explained (CNN Visualized)',
+              type: 'video',
+              url: 'https://www.youtube.com/watch?v=pj9-rr1wDhM'
+            },
+            {
+              id: 'cnns-from-different-viewpoints',
+              name: 'CNNs from different viewpoints',
+              type: 'article',
+              url: 'https://cs231n.github.io/understanding-cnn/'
+            },
+            {
+              id: 'image-kernels',
+              name: 'Image Kernels',
+              type: 'article',
+              url: 'https://setosa.io/ev/image-kernels/'
+            },
+            {
+              id: 'visualizing-what-convnets-learn',
+              name: 'Visualizing what ConvNets learn',
+              type: 'article',
+              url: 'https://cs231n.github.io/understanding-cnn/'
+            },
+            {
+              id: 'convolutions-in-image-processing',
+              name: 'Convolutions in Image Processing',
+              type: 'video',
+              url: 'https://www.youtube.com/watch?v=8rrHTtUzyZA'
+            },
+            {
+              id: 'understanding-convolution',
+              name: 'Understanding “convolution” operations in CNN',
+              type: 'article',
+              url: 'https://medium.com/analytics-vidhya/convolution-operations-in-cnn-deep-learning-compter-vision-128906ece7d3'
+            },
+            {
+              id: 'convolutional-neural-networks-explained',
+              name: 'Convolutional Neural Networks, Explained',
+              type: 'article',
+              url: 'https://towardsdatascience.com/convolutional-neural-networks-explained-9cc5188c4939'
+            },
+          ]
+        },
+        {
+          id: 'rnn',
+          name: 'RNN',
+          type: 'folder',
+          children: [
+            {
+              id: 'rnn-made-with-ml',
+              name: 'Recurrent Neural Networks (RNN) - Made With ML',
+              type: 'article',
+              url: 'https://madewithml.com/courses/foundations/recurrent-neural-networks/'
+            },
+            {
+              id: 'rnn-effectiveness',
+              name: 'The Unreasonable Effectiveness of Recurrent Neural Networks - Karpathy',
+              type: 'article',
+              url: 'https://karpathy.github.io/2015/05/21/rnn-effectiveness/'
+            },
+          ]
+        },
+        {
+          id: 'llm',
+          name: 'LLM',
+          type: 'folder',
+          children: [
+            {
+              id: 'umar-jamil',
+              name: 'Umar Jamil',
+              type: 'video',
+              url: 'https://www.youtube.com/@umarjamilai'
+            },
+            {
+              id: 'llm-from-scratch',
+              name: 'Build a Large Language Model (From Scratch) - Sebastian Raschka',
+              type: 'article',
+              url: 'https://livebook.manning.com/book/build-a-large-language-model-from-scratch/title/'
+            },
+            {
+              id: 'illustrated-gpt2',
+              name: 'The Illustrated GPT-2 (Visualizing Transformer Language Models)',
+              type: 'article',
+              url: 'https://jalammar.github.io/illustrated-gpt2/'
+            },
+            {
+              id: 'attention-is-all-you-need',
+              name: 'Attention Is All You Need - Implementation',
+              type: 'github',
+              url: 'https://github.com/LvanderGoten/AttentionIsAllYouNeed?tab=readme-ov-file'
+            },
+            {
+              id: 'linear-relationships-in-the-transformers-positional-encoding',
+              name: 'Linear Relationships in the Transformer\'s Positional Encoding',
+              type: 'article',
+              url: 'https://blog.timodenk.com/linear-relationships-in-the-transformers-positional-encoding/'
+            },
+            {
+              id: 'implement-vit',
+              name: 'Implement and Train ViT From Scratch for Image Recognition - PyTorch',
+              type: 'video',
+              url: 'https://www.youtube.com/watch?v=Vonyoz6Yt9c'
+            },
+            {
+              id: 'smol-course',
+              name: 'a smol course - huggingface',
+              type: 'github',
+              url: 'https://github.com/huggingface/smol-course'
+            },
+            {
+              id: 'how-i-studied-llms-in-two-weeks',
+              name: 'How I Studied LLMs in Two Weeks: A Comprehensive Roadmap',
+              type: 'article',
+              url: 'https://towardsdatascience.com/how-i-studied-llms-in-two-weeks-a-comprehensive-roadmap-e8ac19667a31'
+            },
+            {
+              id: 'llm-visualization',
+              name: 'LLM Visualization',
+              type: 'article',
+              url: 'https://bbycroft.net/llm'
+            },
+            {
+              id: 'nlp-course',
+              name: 'nlp course - huggingface',
+              type: 'article',
+              url: 'https://huggingface.co/learn/nlp-course/chapter1/1'
+            },
+            {
+              id: 'zero-to-hero',
+              name: 'Neural Networks: Zero to Hero',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ'
+            },
+          ]
+        },
+        {
           id: 'pytorch',
           name: 'PyTorch',
           type: 'folder',
@@ -689,6 +866,18 @@ export const resourceData: Resource = {
               name: 'MiniTorch',
               type: 'article',
               url: 'https://minitorch.github.io/'
+            },
+            {
+              id: 'pytorch-is-dead',
+              name: 'PyTorch is dead. Long live JAX. - Blog',
+              type: 'article',
+              url: 'https://neel04.github.io/my-website/blog/pytorch_rant/'
+            },
+            {
+              id: 'inside-the-matrix',
+              name: 'Inside the Matrix: Visualizing Matrix Multiplication, Attention and Beyond',
+              type: 'article',
+              url: 'https://pytorch.org/blog/inside-the-matrix/'
             },
           ],
         },
@@ -783,7 +972,19 @@ export const resourceData: Resource = {
           name: 'Roadmap',
           type: 'article',
           url: 'https://aigents.co/learn/roadmaps/deep-learning-roadmap'
-        }
+        },
+        {
+          id: 'deep-learning-for-tabular-data',
+          name: 'A Short Chronology Of Deep Learning For Tabular Data',
+          type: 'article',
+          url: 'https://sebastianraschka.com/blog/2022/deep-learning-for-tabular-data.html'
+        },
+        {
+          id: 'understanding-ai',
+          name: 'Understanding AI - Lee Robinson',
+          type: 'article',
+          url: 'https://leerob.com/n/ai'
+        },
       ]
     },
     {
@@ -826,7 +1027,176 @@ export const resourceData: Resource = {
               type: 'video',
               url: 'https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU'
             },
+            {
+              id: 'applied-ml-2020',
+              name: 'Applied Machine Learning 2020 by Andreas Mueller',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PL_pVmAaAnxIRnSw6wiCpSvshFyCREZmlM'
+            },
+            {
+              id: 'ml-notebook',
+              name: 'Machine Learning Notebook',
+              type: 'article',
+              url: 'https://calvinfeng.gitbook.io/machine-learning-notebook'
+            },
+            {
+              id: 'made-with-ml',
+              name: 'Made With ML',
+              type: 'article',
+              url: 'https://madewithml.com/#course'
+            },
           ]
+        },
+        {
+          id: 'ml-books',
+          name: 'Books',
+          type: 'folder',
+          children: [
+            {
+              id: 'python-for-data-analysis',
+              name: 'Python for Data Analysis',
+              type: 'article',
+              url: 'https://wesmckinney.com/book/'
+            },
+           
+          ]
+        },
+        {
+          id: 'ml-ops',
+          name: 'ML Ops',
+          type: 'folder',
+          children: [
+            {
+              id: 'mlops-basics',
+              name: 'MLOps Basics',
+              type: 'github',
+              url: 'https://github.com/graviraja/MLOps-Basics'
+            },
+            {
+              id: 'mlops-for-beginners',
+              name: 'How to Learn MLOps in 2024 [Courses, Books, and Other Resources]',
+              type: 'article',
+              url: 'https://neptune.ai/blog/how-to-learn-mlops'
+            },
+          ]
+        },
+        {
+          id: 'svm',
+          name: 'SVM',
+          type: 'folder',
+          children: [
+            {
+              id: 'mit-svm',
+              name: 'MIT - Learning: Support Vector Machines',
+              type: 'video',
+              url: 'https://www.youtube.com/watch?v=_PwhiWxHK8o'
+            },
+            {
+              id: 'dual-formulation',
+              name: 'Derive the Dual Formulation for Support Vector Machines',
+              type: 'video',
+              url: 'https://www.youtube.com/watch?v=4TIbsTa3r24&t=5s'
+            },
+            {
+              id: 'compphysics-svm',
+              name: 'Support Vector Machines - compphysics',
+              type: 'article',
+              url: 'https://compphysics.github.io/ComputationalPhysics2/doc/LectureNotes/_build/html/supportvectormachines.html'
+            },
+            {
+              id: 'cornell-svm',
+              name: 'Machine Learning Lecture 14 "(Linear) Support Vector Machines" -Cornell CS4780 SP17',
+              type: 'video',
+              url: 'https://www.youtube.com/watch?v=xpHQ6UhMlx4&list=PLl8OlHZGYOQ7bkVbuRthEsaLr7bONzbXS'
+            },
+            {
+              id: 'svm-optimization',
+              name: 'Support Vector Machines, Dual Formulation, Quadratic Programming & Sequential Minimal Optimization',
+              type: 'article',
+              url: 'https://towardsdatascience.com/support-vector-machines-dual-formulation-quadratic-programming-sequential-minimal-optimization-57f4387ce4dd#d326'
+            },
+            {
+              id: 'svmjs-demo',
+              name: 'Support Vector Machine in Javascript, Demo - Karpathy',
+              type: 'article',
+              url: 'https://cs.stanford.edu/~karpathy/svmjs/demo/'
+            },
+            {
+              id: 'svm-demo',
+              name: 'Interactive demo of Support Vector Machines (SVM)',
+              type: 'article',
+              url: 'https://greitemann.dev/svm-demo'
+            },
+          ]
+        },
+        {
+          id: 'cross-entropy',
+          name: 'Cross Entropy',
+          type: 'folder',
+          children: [
+            {
+              id: 'cross-entropy-and-log-likelihood',
+              name: 'Cross Entropy and Log Likelihood',
+              type: 'article',
+              url: 'https://www.awebb.info/probability/2017/05/18/cross-entropy-and-log-likelihood.html'
+            },
+            {
+              id: 'confused-me-about-cross-entropy',
+              name: 'Things that confused me about cross-entropy',
+              type: 'article',
+              url: 'https://chris-said.io/2020/12/26/two-things-that-confused-me-about-cross-entropy/'
+            },
+            {
+              id: 'understanding-binary-cross-entropy-log-loss',
+              name: 'Understanding binary cross-entropy / log loss: a visual explanation',
+              type: 'article',
+              url: 'https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a'
+            },
+          ]
+        },
+        {
+          id: 'feature-engineering',
+          name: 'Feature Engineering',
+          type: 'folder',
+          children: [
+            {
+              id: 'feature-engineering-kaggle',
+              name: 'Feature Engineering - Kaggle',
+              type: 'article',
+              url: 'https://www.kaggle.com/learn/feature-engineering'
+            },
+            {
+              id: 'reference-guide-to-fe',
+              name: 'A Reference Guide to Feature Engineering Methods',
+              type: 'article',
+              url: 'https://www.kaggle.com/code/prashant111/a-reference-guide-to-feature-engineering-methods'
+            },
+            {
+              id: 'advanced-feature-engineering',
+              name: 'Advanced Feature Engineering',
+              type: 'article',
+              url: 'https://www.kaggle.com/code/seneralkan/advanced-feature-engineering'
+            },
+            {
+              id: 'fe-zero-to-hero',
+              name: 'Complete Guide to Feature Engineering: Zero to Hero',
+              type: 'article',
+              url: 'https://www.analyticsvidhya.com/blog/2021/09/complete-guide-to-feature-engineering-zero-to-hero/'
+            },
+            
+          ]
+        },
+        {
+          id: 'deep-ml',
+          name: 'ML Code Challenges',
+          type: 'article',
+          url: 'https://www.deep-ml.com/'
+        },
+        {
+          id: 'uc-ml',
+          name: 'UC Irvine Machine Learning Repository',
+          type: 'article',
+          url: 'https://archive.ics.uci.edu/'
         },
       ]
     },
@@ -966,6 +1336,73 @@ export const resourceData: Resource = {
           type: 'article',
           url: 'https://horace.io/brrr_intro.html'
         }
+      ]
+    },
+    {
+      id: 'tools-unsorted',
+      name: 'Tools and Unsorted',
+      type: 'folder',
+      children: [
+        {
+          id: 'netron',
+          name: 'Netron - Deep Learning Model Inspector',
+          type: 'article',
+          url: 'https://netron.app/'
+        },
+        {
+          id: 'advanced-numpy',
+          name: 'Advanced NumPy',
+          type: 'article',
+          url: 'https://wesmckinney.com/book/advanced-numpy'
+        },
+        {
+          id: 'stride-guide',
+          name: 'An Illustrated Guide to Shape and Strides',
+          type: 'article',
+          url: 'https://ajcr.net/stride-guide-part-1/'
+        },
+        {
+          id: 'smolorg',
+          name: 'smolorg - maharshi',
+          type: 'github',
+          url: 'https://github.com/smolorg'
+        },
+        {
+          id: 'matrix-calculus',
+          name: 'The Matrix Calculus You Need For Deep Learning',
+          type: 'article',
+          url: 'https://explained.ai/matrix-calculus/'
+        },
+        {
+          id: 'fast-mmm',
+          name: 'Fast Multidimensional Matrix Multiplication on CPU from Scratch',
+          type: 'article',
+          url: 'https://siboehm.com/articles/22/Fast-MMM-on-CPU'
+        },
+        {
+          id: 'computer-vision-papers',
+          name: 'Computer Vision Papers',
+          type: 'article',
+          url: 'https://paperswithcode.com/area/computer-vision'
+        },
+        {
+          id: 'ml-stash',
+          name: 'ml stash',
+          type: 'article',
+          url: 'https://arc.net/e/D242E263-31FD-4CF9-A2D5-B67519C049AF'
+        },
+        {
+          id: 'matrix-visualizer',
+          name: 'Matrix Visualizer',
+          type: 'article',
+          url: 'https://shad.io/MatVis/'
+        },
+        {
+          id: 'matrix-cookbook',
+          name: 'The Matrix Cookbook',
+          type: 'article',
+          url: 'https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf'
+        },
       ]
     }
   ]
