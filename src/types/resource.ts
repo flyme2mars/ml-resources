@@ -644,6 +644,37 @@ export const resourceData: Resource = {
           ]
         },
         {
+          id: 'pytorch',
+          name: 'PyTorch',
+          type: 'folder',
+          children: [
+            {
+              id: 'zero-to-mastery-pytorch',
+              name: 'Zero to Mastery Learn PyTorch for Deep Learning - Daniel Bourke',
+              type: 'article',
+              url: 'https://www.learnpytorch.io/'
+            },
+            {
+              id: 'zero-to-mastery-pytorch-video',
+              name: 'Learn PyTorch for deep learning in a day. Literally. - Daniel Bourke',
+              type: 'video',
+              url: 'https://www.youtube.com/watch?v=Z_ikDlimN6A'
+            },
+            {
+              id: 'pytorch-internals',
+              name: 'PyTorch internals - ezyang\'s blog',
+              type: 'article',
+              url: 'http://blog.ezyang.com/2019/05/pytorch-internals/'
+            },
+            {
+              id: 'minitorch',
+              name: 'MiniTorch',
+              type: 'article',
+              url: 'https://minitorch.github.io/'
+            },
+          ],
+        },
+        {
           id: 'karpathy',
           name: 'Karpathy',
           type: 'folder',
@@ -683,6 +714,49 @@ export const resourceData: Resource = {
               name: 'karpathy',
               type: 'github',
               url: 'https://github.com/karpathy'
+            },
+          ]
+        },
+        {
+          id: '3b1b',
+          name: '3Blue1Brown',
+          type: 'folder',
+          children: [
+            {
+              id: '3b1b-nn',
+              name: 'Neural Networks',
+              type: 'article',
+              url: 'https://www.3blue1brown.com/topics/neural-networks'
+            },
+            {
+              id: '3b1b-nn-yt',
+              name: 'Neural Networks',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi'
+            },
+            {
+              id: 'neilsen-dl',
+              name: 'Suggested by 3B1B - Neural Networks and Deep Learning',
+              type: 'article',
+              url: 'http://neuralnetworksanddeeplearning.com/'
+            },
+            {
+              id: 'colah-dl',
+              name: 'Suggested by 3B1B - Calculus on Computational Graphs: Backpropagation',
+              type: 'article',
+              url: 'https://colah.github.io/posts/2015-08-Backprop/'
+            },
+            {
+              id: 'neural-networks-demystified',
+              name: 'Suggested by 3B1B - Neural Networks Demystified',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU'
+            },
+            {
+              id: 'learning-to-see',
+              name: 'Suggested by 3B1B - Learning To See',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PLiaHhY2iBX9ihLasvE8BKnS2Xg8AhY6iV'
             },
           ]
         },
