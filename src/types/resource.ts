@@ -545,6 +545,153 @@ export const resourceData: Resource = {
       type: 'folder',
       children: [
 
+        {
+          id: 'books',
+          name: 'Books',
+          type: 'folder',
+          children: [
+            {
+              id: 'deeplearningbook-2016',
+              name: 'Deep Learning - Ian Goodfellow',
+              type: 'article',
+              url: 'https://www.deeplearningbook.org/'
+            },
+            {
+              id: 'udlbook',
+              name: 'Understanding Deep Learning',
+              type: 'article',
+              url: 'https://udlbook.github.io/udlbook/'
+            },
+            {
+              id: 'lbdl',
+              name: 'The Little Book of Deep Learning',
+              type: 'article',
+              url: 'https://fleuret.org/public/lbdl.pdf'
+            },
+            {
+              id: 'grokking-deep-learning',
+              name: 'Grokking Deep Learning',
+              type: 'article',
+              url: 'https://cdn.ttgtmedia.com/rms/pdf/grokking_deep_learning.pdf'
+            },
+            {
+              id: 'fastai-deep-learning-book',
+              name: 'Practical Deep Learning for Coders - fastai',
+              type: 'article',
+              url: 'https://course.fast.ai/Resources/book.html'
+            },
+            {
+              id: 'meta-learning',
+              name: 'Meta Learning - How To Learn Deep Learning And Thrive In The Digital Age',
+              type: 'article',
+              url: 'https://studylib.net/doc/26113326/radek-osmulski---meta-learning--how-to-learn-deep-learnin...'
+            },
+            {
+              id: 'itprnn',
+              name: 'David MacKay - Information Theory, Inference, and Learning Algorithms',
+              type: 'document',
+              url: 'https://www.inference.org.uk/itprnn/book.pdf'
+            },
+          ]
+        },
+        {
+          id: 'courses',
+          name: 'Courses',
+          type: 'folder',
+          children: [
+            {
+              id: 'deeplearningai',
+              name: 'DeepLearning.AI',
+              type: 'video',
+              url: 'https://deeplearning.ai/'
+            },
+            {
+              id: 'nyudl',
+              name: 'NYU Deep Learning - Yann LeCun',
+              type: 'article',
+              url: 'https://atcold.github.io/NYU-DLSP21/'
+            },
+            {
+              id: 'intro-to-deep-learning-sr',
+              name: 'Intro to Deep Learning - Sebastian Raschka',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PLTKMiZHVd_2KJtIXOW0zFhFfBaJJilH51'
+            },
+            {
+              id: 'fastai-deep-learning-course',
+              name: 'Practical Deep Learning for Coders - fastai',
+              type: 'video',
+              url: 'https://course.fast.ai/'
+            },
+            {
+              id: 'david-mackay-info-theory-pattern-recognition-and-neural-networks',
+              name: 'David MacKay - Information Theory, Pattern Recognition, and Neural Networks',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6'
+            },
+            {
+              id: 'mit-dl',
+              name: 'MIT - Introduction to Deep Learning',
+              type: 'video',
+              url: 'https://introtodeeplearning.com/'
+            },
+            {
+              id: 'stanford-cs231n',
+              name: 'CS231n - Deep Learning for Computer Vision',
+              type: 'video',
+              url: 'https://cs231n.stanford.edu/'
+            },
+          ]
+        },
+        {
+          id: 'karpathy',
+          name: 'Karpathy',
+          type: 'folder',
+          children: [
+            {
+              id: 'karpathy-blog',
+              name: 'Blog',
+              type: 'article',
+              url: 'https://karpathy.github.io/'
+            },
+            {
+              id: 'zero-to-hero',
+              name: 'Neural Networks: Zero to Hero',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ'
+            },
+            {
+              id: 'cs231n-2016',
+              name: 'CS231n Winter 2016',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC'
+            },
+            {
+              id: 'cs231n-2016-site',
+              name: 'CS231n Winter 2016 - Course Site',
+              type: 'article',
+              url: 'https://cs231n.stanford.edu/2016/'
+            },
+            {
+              id: 'eureka-labs-ai',
+              name: 'Eureka Labs AI',
+              type: 'github',
+              url: 'https://github.com/EurekaLabsAI'
+            },
+            {
+              id: 'karpathy-github',
+              name: 'karpathy',
+              type: 'github',
+              url: 'https://github.com/karpathy'
+            },
+          ]
+        },
+        {
+          id: 'roadmap',
+          name: 'Roadmap',
+          type: 'article',
+          url: 'https://aigents.co/learn/roadmaps/deep-learning-roadmap'
+        }
       ]
     },
     {
