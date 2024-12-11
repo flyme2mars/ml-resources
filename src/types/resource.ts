@@ -612,6 +612,12 @@ export const resourceData: Resource = {
               url: 'https://atcold.github.io/NYU-DLSP21/'
             },
             {
+              id: 'mathematics-of-neural-networks-and-deep-learning',
+              name: 'The Complete Mathematics of Neural Networks and Deep Learning',
+              type: 'video',
+              url: 'https://www.youtube.com/watch?v=Ixl3nykKG9M'
+            },
+            {
               id: 'intro-to-deep-learning-sr',
               name: 'Intro to Deep Learning - Sebastian Raschka',
               type: 'video',
@@ -630,6 +636,12 @@ export const resourceData: Resource = {
               url: 'https://www.youtube.com/playlist?list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6'
             },
             {
+              id: 'cs182-deep-learning',
+              name: 'UC Berkeley CS 182: Deep Learning',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PL_iWQOsE6TfVmKkQHucjPAoRtIJYt8a5A'
+            },
+            {
               id: 'mit-dl',
               name: 'MIT - Introduction to Deep Learning',
               type: 'video',
@@ -640,6 +652,12 @@ export const resourceData: Resource = {
               name: 'CS231n - Deep Learning for Computer Vision',
               type: 'video',
               url: 'https://cs231n.stanford.edu/'
+            },
+            {
+              id: 'cs224d',
+              name: 'CS224d: Deep Learning for Natural Language Processing',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PL4PDl8a0S5tvphRVF45G8B7z0pDO6MT7C'
             },
           ]
         },
@@ -768,6 +786,100 @@ export const resourceData: Resource = {
         }
       ]
     },
+    {
+      id: 'ml-da',
+      name: 'Machine Learning & Data Analysis',
+      type: 'folder',
+      children: [
+        {
+          id: 'ml-courses',
+          name: 'Courses',
+          type: 'folder',
+          children: [
+            {
+              id: 'mit-6-034',
+              name: 'MIT 6.034 Artificial Intelligence, Fall 2010',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi'
+            },
+            {
+              id: 'cornell-ml',
+              name: 'Cornell CS4780 Machine Learning for Decision Making SP17',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PLl8OlHZGYOQ7bkVbuRthEsaLr7bONzbXS'
+            },
+            {
+              id: 'ml-in-c',
+              name: 'Machine Learning in C',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PLpM-Dvs8t0VZPZKggcql-MmjaBdZKeDMw'
+            },
+            {
+              id: 'machine-learning-coursera',
+              name: 'Andrew Ng\'s Machine Learning Collection',
+              type: 'article',
+              url: 'https://www.coursera.org/collections/machine-learning'
+            },
+            {
+              id: 'stanford-cs229',
+              name: 'Stanford CS229: Machine Learning Full Course taught by Andrew Ng | Autumn 2018',
+              type: 'video',
+              url: 'https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU'
+            },
+          ]
+        },
+      ]
+    },
+    {
+      id: 'reinforcement-learning',
+      name: 'Reinforcement Learning',
+      type: 'folder',
+      children: [
+        {
+          id: 'reinforcement-learning-sutton',
+          name: 'Reinforcement Learning: An Introduction - Book - Sutton',
+          type: 'document',
+          url: 'https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf'
+        },
+        {
+          id: 'deepmind-rl-course',
+          name: 'DeepMind x UCL | Introduction to Reinforcement Learning 2015',
+          type: 'video',
+          url: 'https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ'
+        },
+        {
+          id: 'spinning-up-rl',
+          name: 'Spinning Up - OpenAI',
+          type: 'github',
+          url: 'https://github.com/openai/spinningup'
+        },
+        {
+          id: 'algorithms-for-rl',
+          name: 'Algorithms for Reinforcement Learning - Book',
+          type: 'document',
+          url: 'https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs-lecture.pdf'
+        },
+        {
+          id: 'cs294-rl',
+          name: 'CS 294: Deep Reinforcement Learning, Spring 2017',
+          type: 'article',
+          url: 'https://rll.berkeley.edu/deeprlcoursesp17/'
+        },
+        {
+          id: 'reinforcement-learning-overview-kpm',
+          name: 'Reinforcement Learning: An Overview - Kevin P. Murphy',
+          type: 'document',
+          url: 'https://arxiv.org/pdf/2412.05265'
+        },
+        {
+          id: 'huggingface-deep-rl-course',
+          name: 'Hugging Face - Deep RL Course',
+          type: 'article',
+          url: 'https://huggingface.co/learn/deep-rl-course/unit0/introduction'
+        },
+      ]
+    },
+    
     {
       id: 'gpu',
       name: 'GPU',
