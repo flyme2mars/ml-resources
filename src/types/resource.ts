@@ -20,7 +20,7 @@ export const resourceData: Resource = {
       children: [
         {
           id: 'ilya-30u30',
-          name: 'Ilya 30u30',
+          name: 'Ilya 30u30 - keshavchan',
           type: 'folder',
           children: [
             {
