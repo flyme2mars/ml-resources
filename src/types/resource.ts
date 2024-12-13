@@ -781,6 +781,12 @@ export const resourceData: Resource = {
               url: 'https://livebook.manning.com/book/build-a-large-language-model-from-scratch/title/',
             },
             {
+              id: 'llm-from-scratch-2',
+              name: 'Create a Large Language Model from Scratch with Python - Tutorial by elliotarledge',
+              type: 'video',
+              url: 'https://www.youtube.com/watch?v=UU1WVnMk4E8&t=4303s',
+            },
+            {
               id: 'transformers-from-scratch',
               name: 'Intro to Transformers (Presentation) - giffmana',
               type: 'article',
@@ -1305,6 +1311,12 @@ export const resourceData: Resource = {
               name: 'How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog',
               type: 'article',
               url: 'https://siboehm.com/articles/22/CUDA-MMM',
+            },
+            {
+              id: 'cuda-elliot',
+              name: 'CUDA Programming Course - High-Performance Computing with GPUs - elliotarledge',
+              type: 'video',
+              url: 'https://www.youtube.com/watch?v=86FAWCzIe_4',
             },
             {
               id: 'cuda-mode',
