@@ -781,6 +781,12 @@ export const resourceData: Resource = {
               url: 'https://livebook.manning.com/book/build-a-large-language-model-from-scratch/title/',
             },
             {
+              id: 'transformers-from-scratch',
+              name: 'Intro to Transformers (Presentation) - giffmana',
+              type: 'article',
+              url: 'https://docs.google.com/presentation/d/1ZXFIhYczos679r70Yu8vV9uO6B1J0ztzeDxbnBxD1S0/edit#slide=id.ge2832e38b9_0_21',
+            },
+            {
               id: 'illustrated-gpt2',
               name: 'The Illustrated GPT-2 (Visualizing Transformer Language Models)',
               type: 'article',
