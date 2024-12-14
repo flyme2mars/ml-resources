@@ -429,6 +429,12 @@ export const resourceData: Resource = {
           url: 'https://atcold.github.io/blog.html',
         },
         {
+          id: 'sumit-blog',
+          name: 'sumit.ml',
+          type: 'article',
+          url: 'https://www.sumit.ml/',
+        },
+        {
           id: 'maharshi-blog',
           name: 'maharshi',
           type: 'article',
