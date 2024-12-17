@@ -756,6 +756,24 @@ export const resourceData: Resource = {
           type: 'folder',
           children: [
             {
+              id: 'rnn-intro',
+              name: 'Recurrent Neural Networks Tutorial, Part 1 - Introduction to RNNs',
+              type: 'article',
+              url: 'https://dennybritz.com/posts/wildml/recurrent-neural-networks-tutorial-part-1/',
+            },
+            {
+              id: 'rnn-lstm',
+              name: 'Understanding LSTM Networks',
+              type: 'article',
+              url: 'https://colah.github.io/posts/2015-08-Understanding-LSTMs/',
+            },
+            {
+              id: 'rnn-implementation',
+              name: 'Predict Stock Prices Using RNN: Part 1',
+              type: 'article',
+              url: 'https://lilianweng.github.io/posts/2017-07-08-stock-rnn-part-1/',
+            },
+            {
               id: 'rnn-made-with-ml',
               name: 'Recurrent Neural Networks (RNN) - Made With ML',
               type: 'article',
