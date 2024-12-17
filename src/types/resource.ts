@@ -794,9 +794,15 @@ export const resourceData: Resource = {
             },
             {
               id: 'transformers-from-scratch',
-              name: 'Intro to Transformers (Presentation) - giffmana',
+              name: 'Intro to Transformers (slides) - giffmana',
               type: 'article',
               url: 'https://docs.google.com/presentation/d/1ZXFIhYczos679r70Yu8vV9uO6B1J0ztzeDxbnBxD1S0/edit#slide=id.ge2832e38b9_0_21',
+            },
+            {
+              id: 'transformers-from-scratch-2',
+              name: '[M2L 2024] Transformers - Lucas Beyer (giffmana)',
+              type: 'video',
+              url: 'https://www.youtube.com/watch?v=bMXqnLiVgLk',
             },
             {
               id: 'illustrated-gpt2',
