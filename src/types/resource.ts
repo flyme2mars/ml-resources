@@ -1099,6 +1099,12 @@ export const resourceData: Resource = {
               type: 'article',
               url: 'https://neptune.ai/blog/how-to-learn-mlops',
             },
+            {
+              id: 'mlops-guide',
+              name: 'MLOps guide - huyen',
+              type: 'article',
+              url: 'https://huyenchip.com/mlops/',
+            },
           ],
         },
         {
