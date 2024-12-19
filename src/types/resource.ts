@@ -780,6 +780,12 @@ export const resourceData: Resource = {
               url: 'https://madewithml.com/courses/foundations/recurrent-neural-networks/',
             },
             {
+              id: 'rnn-and-lstm',
+              name: 'RNNs and LSTMs - jurafsky, stanford',
+              type: 'document',
+              url: 'https://web.stanford.edu/~jurafsky/slp3/8.pdf',
+            },
+            {
               id: 'rnn-effectiveness',
               name: 'The Unreasonable Effectiveness of Recurrent Neural Networks - Karpathy',
               type: 'article',
@@ -1398,6 +1404,12 @@ export const resourceData: Resource = {
           name: 'Netron - Deep Learning Model Inspector',
           type: 'article',
           url: 'https://netron.app/',
+        },
+        {
+          id: 'insights',
+          name: 'Insights | Internet\'s Best Resources',
+          type: 'article',
+          url: 'https://insights.surf/',
         },
         {
           id: 'advanced-numpy',
