@@ -495,6 +495,12 @@ export const resourceData: Resource = {
           url: 'https://bair.berkeley.edu/blog/',
         },
         {
+          id: 'anthropic-blog',
+          name: 'anthropic blog',
+          type: 'article',
+          url: 'https://www.anthropic.com/research',
+        },
+        {
           id: 'openai-blog',
           name: 'openai blog',
           type: 'article',
@@ -863,6 +869,12 @@ export const resourceData: Resource = {
               name: 'How I Studied LLMs in Two Weeks: A Comprehensive Roadmap',
               type: 'article',
               url: 'https://towardsdatascience.com/how-i-studied-llms-in-two-weeks-a-comprehensive-roadmap-e8ac19667a31',
+            },
+            {
+              id: 'building-effective-agents',
+              name: 'Building effective agents - Anthropic',
+              type: 'article',
+              url: 'https://www.anthropic.com/research/building-effective-agents',
             },
             {
               id: 'llm-visualization',
