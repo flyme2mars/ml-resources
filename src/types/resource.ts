@@ -465,6 +465,12 @@ export const resourceData: Resource = {
           url: 'https://saurabhai.com/blogs/blogs',
         },
         {
+          id: 'paneer-blog',
+          name: "paneer's blog",
+          type: 'article',
+          url: 'https://paneer.bearblog.dev/blog/',
+        },
+        {
           id: 'florian-blog',
           name: 'Florian Hartmann',
           type: 'article',
