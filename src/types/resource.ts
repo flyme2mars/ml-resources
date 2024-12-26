@@ -560,6 +560,12 @@ export const resourceData: Resource = {
           type: 'article',
           url: 'https://machinelearningmastery.com/',
         },
+        {
+          id: 'poloclub-blog',
+          name: 'Polo Club',
+          type: 'article',
+          url: 'https://poloclub.github.io/#research-ai',
+        },
       ],
     },
     {
