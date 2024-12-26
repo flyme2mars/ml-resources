@@ -471,6 +471,12 @@ export const resourceData: Resource = {
           url: 'https://florian.github.io/',
         },
         {
+          id: 'leonardo-blog',
+          name: 'Leonardo Araujo Santos',
+          type: 'article',
+          url: 'https://leonardoaraujosantos.gitbook.io/artificial-inteligence',
+        },
+        {
           id: 'alexandru-blog',
           name: 'Alexandru Burlacu',
           type: 'article',
@@ -577,6 +583,12 @@ export const resourceData: Resource = {
               name: 'Understanding Deep Learning',
               type: 'article',
               url: 'https://udlbook.github.io/udlbook/',
+            },
+            {
+              id: 'd2l',
+              name: 'Dive into Deep Learning',
+              type: 'article',
+              url: 'https://d2l.ai/',
             },
             {
               id: 'lbdl',
@@ -833,6 +845,12 @@ export const resourceData: Resource = {
               name: '[M2L 2024] Transformers - Lucas Beyer (giffmana)',
               type: 'video',
               url: 'https://www.youtube.com/watch?v=bMXqnLiVgLk',
+            },
+            {
+              id: 'transformer-explainer',
+              name: 'TRANSFORMER EXPLAINER - Polo Club',
+              type: 'article',
+              url: 'https://poloclub.github.io/transformer-explainer/',
             },
             {
               id: 'illustrated-gpt2',
@@ -1352,6 +1370,12 @@ export const resourceData: Resource = {
               type: 'video',
               url: 'https://www.youtube.com/playlist?list=PLxVedhmuwLq2Ie88ODuZufCGorawPO1AP',
             },
+            {
+              id: 'parallel-programming-las',
+              name: 'Parallel Programming - Leonardo Araujo Santos',
+              type: 'article',
+              url: 'https://leonardoaraujosantos.gitbook.io/opencl',
+            },
           ],
         },
 
@@ -1419,7 +1443,7 @@ export const resourceData: Resource = {
         },
         {
           id: 'insights',
-          name: 'Insights | Internet\'s Best Resources',
+          name: "Insights | Internet's Best Resources",
           type: 'article',
           url: 'https://insights.surf/',
         },
@@ -1464,6 +1488,12 @@ export const resourceData: Resource = {
           name: 'ml stash',
           type: 'article',
           url: 'https://arc.net/e/D242E263-31FD-4CF9-A2D5-B67519C049AF',
+        },
+        {
+          id: 'seeing-theory',
+          name: 'Seeing Theory - A visual introduction to probability and statistics',
+          type: 'article',
+          url: 'https://seeing-theory.brown.edu/',
         },
         {
           id: 'aarish22',
