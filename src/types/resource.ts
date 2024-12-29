@@ -272,6 +272,12 @@ export const resourceData: Resource = {
           url: 'https://drive.google.com/file/d/1u4RwS5gmEB1Jk3hWcq7yU_5OxxfeqfMJ/view?usp=sharing',
         },
         {
+          id: 'karpathy-2015',
+          name: 'VISUALIZING AND UNDERSTANDING RECURRENT NETWORKS',
+          type: 'document',
+          url: 'https://arxiv.org/pdf/1506.02078',
+        },
+        {
           id: 'rumelhart-1986',
           name: 'Learning representations by back-propagating errors',
           type: 'document',
