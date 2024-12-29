@@ -266,6 +266,12 @@ export const resourceData: Resource = {
           url: 'https://ia801703.us.archive.org/23/items/turing1948/turing1948_text.pdf',
         },
         {
+          id: 'lstm-1997',
+          name: 'Long Short-term Memory',
+          type: 'document',
+          url: 'https://drive.google.com/file/d/1u4RwS5gmEB1Jk3hWcq7yU_5OxxfeqfMJ/view?usp=sharing',
+        },
+        {
           id: 'rumelhart-1986',
           name: 'Learning representations by back-propagating errors',
           type: 'document',
