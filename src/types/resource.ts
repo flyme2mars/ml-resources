@@ -901,6 +901,12 @@ export const resourceData: Resource = {
               url: 'https://towardsdatascience.com/how-i-studied-llms-in-two-weeks-a-comprehensive-roadmap-e8ac19667a31',
             },
             {
+              id: 'how-large-language-models-work',
+              name: 'How Large Language Models work - From zero to ChatGPT',
+              type: 'article',
+              url: 'https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f',
+            },
+            {
               id: 'building-effective-agents',
               name: 'Building effective agents - Anthropic',
               type: 'article',
