@@ -471,6 +471,12 @@ export const resourceData: Resource = {
           url: 'https://michaelnotebook.com/index.html',
         },
         {
+          id: 'simon-blog',
+          name: 'Simon Willison',
+          type: 'article',
+          url: 'https://simonwillison.net/',
+        },
+        {
           id: 'saurabh-blog',
           name: 'saurabh',
           type: 'article',
