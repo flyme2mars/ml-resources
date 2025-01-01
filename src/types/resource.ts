@@ -477,6 +477,12 @@ export const resourceData: Resource = {
           url: 'https://simonwillison.net/',
         },
         {
+          id: 'hamel-blog',
+          name: 'Hamel',
+          type: 'article',
+          url: 'https://hamel.dev/',
+        },
+        {
           id: 'saurabh-blog',
           name: 'saurabh',
           type: 'article',
