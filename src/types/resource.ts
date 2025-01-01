@@ -501,6 +501,12 @@ export const resourceData: Resource = {
           url: 'https://alexandruburlacu.github.io/',
         },
         {
+          id: 'victor-blog',
+          name: 'Victor Zhou',
+          type: 'article',
+          url: 'https://victorzhou.com/',
+        },
+        {
           id: 'yash-blog',
           name: 'Yash Shah',
           type: 'article',
