@@ -851,6 +851,12 @@ export const resourceData: Resource = {
               type: 'article',
               url: 'https://karpathy.github.io/2015/05/21/rnn-effectiveness/',
             },
+            {
+              id: 'nlp-scratch',
+              name: 'NLP from Scratch - PyTorch',
+              type: 'article',
+              url: 'https://pytorch.org/tutorials/intermediate/nlp_from_scratch_index.html',
+            },
           ],
         },
         {
