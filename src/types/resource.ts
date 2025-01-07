@@ -1,4 +1,4 @@
-export type ResourceType = 'folder' | 'video' | 'article' | 'github' | 'document'
+export type ResourceType = 'folder' | 'video' | 'article' | 'github' | 'document' | 'discord' | 'reddit'
 
 export interface Resource {
   id: string
@@ -601,6 +601,73 @@ export const resourceData: Resource = {
           name: 'Polo Club',
           type: 'article',
           url: 'https://poloclub.github.io/#research-ai',
+        },
+      ],
+    },
+    {
+      id: 'communities',
+      name: 'Communities',
+      type: 'folder',
+      children: [
+        {
+          id: 'groundzero-ai',
+          name: 'GroundZero AI',
+          type: 'discord',
+          url: 'https://discord.gg/tdztf4kXvz',
+        },
+        {
+          id: 'eureka-labs',
+          name: 'Eureka Labs',
+          type: 'discord',
+          url: 'https://discord.gg/axGCnnQ5Mm',
+        },
+        {
+          id: 'gpu-mode',
+          name: 'GPU MODE',
+          type: 'discord',
+          url: 'https://discord.gg/g5gAD2vFcm',
+        },
+        {
+          id: 'the-neural-nest',
+          name: 'The Neural Nest',
+          type: 'discord',
+          url: 'https://discord.gg/qt3aPSGNNk',
+        },
+        {
+          id: 'thebloke-ai',
+          name: 'TheBloke AI',
+          type: 'discord',
+          url: 'https://discord.gg/SxswPydGRU',
+        },
+        {
+          id: 'fastai',
+          name: 'fast.ai',
+          type: 'discord',
+          url: 'https://discord.gg/zJy2PKwWDu',
+        },
+        {
+          id: 'ml-ai',
+          name: 'Machine Learning',
+          type: 'reddit',
+          url: 'https://www.reddit.com/r/MachineLearning/',
+        },
+        {
+          id: 'deeplearning',
+          name: 'Deep Learning',
+          type: 'reddit',
+          url: 'https://www.reddit.com/r/deeplearning/',
+        },
+        {
+          id: 'local-llama',
+          name: 'LocalLLaMA',
+          type: 'reddit',
+          url: 'https://www.reddit.com/r/LocalLLaMA/',
+        },
+        {
+          id: 'chatgpt',
+          name: 'ChatGPT',
+          type: 'reddit',
+          url: 'https://www.reddit.com/r/ChatGPT/',
         },
       ],
     },
