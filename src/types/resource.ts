@@ -646,6 +646,24 @@ export const resourceData: Resource = {
           url: 'https://discord.gg/zJy2PKwWDu',
         },
         {
+          id: 'latentspace',
+          name: 'Latent Space',
+          type: 'discord',
+          url: 'https://discord.gg/KaM9H6QQ5c',
+        },
+        {
+          id: 'mech-interp',
+          name: 'Mech Interp',
+          type: 'discord',
+          url: 'https://discord.gg/kfAx26aZY3',
+        },
+        {
+          id: 'eleutherai',
+          name: 'EleutherAI',
+          type: 'discord',
+          url: 'https://discord.gg/RPKhmstvG2',
+        },
+        {
           id: 'ml-ai',
           name: 'Machine Learning',
           type: 'reddit',
