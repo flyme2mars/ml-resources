@@ -628,6 +628,12 @@ export const resourceData: Resource = {
           url: 'https://discord.gg/g5gAD2vFcm',
         },
         {
+          id: 'umar-jamil',
+          name: 'Umar Jamil AI',
+          type: 'discord',
+          url: 'https://discord.gg/GwRfpxPCnH',
+        },
+        {
           id: 'the-neural-nest',
           name: 'The Neural Nest',
           type: 'discord',
