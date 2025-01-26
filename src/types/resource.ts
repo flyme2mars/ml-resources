@@ -459,6 +459,12 @@ export const resourceData: Resource = {
           url: 'https://www.naklecha.com/',
         },
         {
+          id: 'nicholas-blog',
+          name: 'Nicholas Carlini',
+          type: 'article',
+          url: 'https://nicholas.carlini.com/writing',
+        },
+        {
           id: 'gdb-blog',
           name: 'Greg Brockman',
           type: 'article',
