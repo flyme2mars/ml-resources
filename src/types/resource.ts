@@ -495,7 +495,7 @@ export const resourceData: Resource = {
           url: 'https://hamel.dev/',
         },
         {
-          id: 'saurabh-blog',
+          id: 'saurabh-blog-2',
           name: 'saurabh',
           type: 'article',
           url: 'https://saurabhai.com/blogs/blogs',
@@ -505,6 +505,12 @@ export const resourceData: Resource = {
           name: "paneer's blog",
           type: 'article',
           url: 'https://paneer.bearblog.dev/blog/',
+        },
+        {
+          id: 'ishaan-blog',
+          name: "Ishaan",
+          type: 'article',
+          url: 'https://medium.com/@darkyboy_',
         },
         {
           id: 'florian-blog',
