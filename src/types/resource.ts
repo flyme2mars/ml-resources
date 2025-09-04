@@ -430,6 +430,12 @@ export const resourceData: Resource = {
           url: "https://lunar-joke-35b.notion.site/Intuition-and-Insights-122ba4b6a3fa8086b561e4069da59cf4",
         },
         {
+          id: "sander-blog",
+          name: "Sander Dieleman",
+          type: "article",
+          url: "https://sander.ai/posts/",
+        },
+        {
           id: "cneuralnetwork-blog",
           name: "cneuralnetwork",
           type: "article",
