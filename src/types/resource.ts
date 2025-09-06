@@ -454,6 +454,12 @@ export const resourceData: Resource = {
           url: "https://blog.matdmiller.com/",
         },
         {
+          id: "alessio-blog",
+          name: "Alessio Devoto",
+          type: "article",
+          url: "https://alessiodevoto.github.io/blog/",
+        },
+        {
           id: "atcold-blog",
           name: "Alfredo Canziani",
           type: "article",
