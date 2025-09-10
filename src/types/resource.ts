@@ -580,6 +580,12 @@ export const resourceData: Resource = {
           url: "https://bair.berkeley.edu/blog/",
         },
         {
+          id: "thinking-machines-blog",
+          name: "Connectionism - Thinking Machines",
+          type: "article",
+          url: "https://thinkingmachines.ai/blog/",
+        },
+        {
           id: "anthropic-blog",
           name: "anthropic blog",
           type: "article",
