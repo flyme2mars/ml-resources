@@ -1617,6 +1617,12 @@ export const resourceData: Resource = {
           ],
         },
         {
+          id: "gpu-glossary",
+          name: "GPU Glossary",
+          type: "article",
+          url: "https://modal.com/gpu-glossary",
+        },
+        {
           id: "horace-he",
           name: "Horace He - Making Deep Learning Go Brrrr",
           type: "article",
