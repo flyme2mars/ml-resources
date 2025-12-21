@@ -436,6 +436,12 @@ export const resourceData: Resource = {
           url: "https://sander.ai/posts/",
         },
         {
+          id: "emilien-blog",
+          name: "Emilien Dupont",
+          type: "article",
+          url: "https://emiliendupont.github.io/blog",
+        },
+        {
           id: "cneuralnetwork-blog",
           name: "cneuralnetwork",
           type: "article",
