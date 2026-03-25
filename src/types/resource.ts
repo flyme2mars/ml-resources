@@ -454,6 +454,12 @@ export const resourceData: Resource = {
           url: "https://siboehm.com/",
         },
         {
+          id: "michael-brenndoerfer-blog",
+          name: "Michael Brenndoerfer",
+          type: "article",
+          url: "https://mbrenndoerfer.com/writing",
+        },
+        {
           id: "matdmiller-blog",
           name: "Mat Miller",
           type: "article",
