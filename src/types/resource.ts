@@ -663,6 +663,12 @@ export const resourceData: Resource = {
           type: "article",
           url: "https://poloclub.github.io/#research-ai",
         },
+        {
+          id: "benmoseley-blog",
+          name: "Ben Moseley",
+          type: "article",
+          url: "https://benmoseley.blog/",
+        },
       ],
     },
     {
